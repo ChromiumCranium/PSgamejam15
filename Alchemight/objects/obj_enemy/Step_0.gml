@@ -1,8 +1,2 @@
-// enemies chasing player
-move_towards_point(obj_player.x, obj_player.y, 3)
-
-// wall collision of enemies (needs improvement)
-if place_meeting(x, y, obj_wall)
-{
-speed = -speed
-}
+//enemy movement towards player w/ wall stuck
+mp_linear_step(obj_player.x, obj_player.y, 3, 1);
