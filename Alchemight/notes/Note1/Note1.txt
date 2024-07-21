@@ -1,0 +1,13 @@
+INFO ON USING THE INVENTORY:
+The individual item slots are not actually objects, they are sprites created using drawGUI 
+so that they will (hopefully) stay static while the camera moves. I've set up some functions
+to make accessing the inventory a little easier; these can be found in the InventoryFunctions
+script. Note that the inventory is a two dimensional array: global.inventory is the array that
+reflects the items in each slot, and each element is an array defined by global.items, which
+stores the properties of every useable item in the game.
+
+The code is a little scuffed here and there (and I can almost guarentee you'll run into an
+index outside range error at some point), so tell me if you need clarifications or need me to
+debug my mess.
+
+btw the font for the tooltip is in the repo

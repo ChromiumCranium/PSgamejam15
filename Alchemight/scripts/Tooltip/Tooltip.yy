@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_addItem",
+  "%Name":"Tooltip",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_addItem",
+  "name":"Tooltip",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
