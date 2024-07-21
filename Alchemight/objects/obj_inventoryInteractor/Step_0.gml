@@ -12,6 +12,8 @@ if(mouse_check_button_pressed(2) == 1){
 	if(hotbarSlot() != -1){
 		show_debug_message("M2 CLICK IN HOTBAR SLOT: ")
 		show_debug_message(hotbarSlot())
+		//if the slot is not empty
+		if(global.inventory[hotbarSlot()] != -1){
 		//add item selected to craft list if there are <3 already selected and the item is craftable and the slot selecting isn't beign used yet
 		if(global.items[global.inventory[hotbarSlot()]][3] == 0 && hotbarSlot() != global.slotCrafting1 && hotbarSlot() != global.slotCrafting2 && hotbarSlot() != global.slotCrafting3){
 		for (var i = 0; i <= CRAFT_LIMIT - 1; i++){
@@ -25,7 +27,7 @@ if(mouse_check_button_pressed(2) == 1){
 				break;
 			};
 		};};	
-	};
+	};}
 };
 
 
