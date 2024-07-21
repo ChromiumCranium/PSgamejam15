@@ -34,7 +34,6 @@
   },
   "name":"Alchemight",
   "resources":[
-<<<<<<< HEAD
     {"id":{"name":"fnt_vinque","path":"fonts/fnt_vinque/fnt_vinque.yy",},},
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
     {"id":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},},
@@ -48,21 +47,11 @@
     {"id":{"name":"spr_inventoryCraft","path":"sprites/spr_inventoryCraft/spr_inventoryCraft.yy",},},
     {"id":{"name":"spr_inventorySlot","path":"sprites/spr_inventorySlot/spr_inventorySlot.yy",},},
     {"id":{"name":"spr_item","path":"sprites/spr_item/spr_item.yy",},},
-=======
-    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
-    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
-    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
-    {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
-    {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
-    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
-    {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
->>>>>>> petr's-branch
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
