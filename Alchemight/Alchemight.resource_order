@@ -16,6 +16,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+<<<<<<< HEAD
     {"name":"fnt_vinque","order":1,"path":"fonts/fnt_vinque/fnt_vinque.yy",},
     {"name":"Note1","order":2,"path":"notes/Note1/Note1.yy",},
     {"name":"obj_inventoryInteractor","order":1,"path":"objects/obj_inventoryInteractor/obj_inventoryInteractor.yy",},
@@ -25,5 +26,11 @@
     {"name":"Tooltip","order":4,"path":"scripts/Tooltip/Tooltip.yy",},
     {"name":"spr_inventoryCraft","order":2,"path":"sprites/spr_inventoryCraft/spr_inventoryCraft.yy",},
     {"name":"spr_item","order":1,"path":"sprites/spr_item/spr_item.yy",},
+=======
+    {"name":"obj_enemy","order":2,"path":"objects/obj_enemy/obj_enemy.yy",},
+    {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"spr_enemy","order":2,"path":"sprites/spr_enemy/spr_enemy.yy",},
+    {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
+>>>>>>> petr's-branch
   ],
 }
