@@ -12,4 +12,4 @@ mp_grid_path(obj_setup_pathway.grid, path, x, y, target_x, target_y, 1);
 path_start(path, 2, path_action_stop, true);
 
 // loop
-alarm_set(0,60);
+alarm_set(0,30);
