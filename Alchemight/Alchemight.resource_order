@@ -20,6 +20,7 @@
     {"name":"Note1","order":2,"path":"notes/Note1/Note1.yy",},
     {"name":"obj_attackParent","order":8,"path":"objects/obj_attackParent/obj_attackParent.yy",},
     {"name":"obj_basicAttack","order":9,"path":"objects/obj_basicAttack/obj_basicAttack.yy",},
+    {"name":"obj_camera","order":10,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_enemy","order":4,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_enemyParent","order":6,"path":"objects/obj_enemyParent/obj_enemyParent.yy",},
     {"name":"obj_friendParent","order":7,"path":"objects/obj_friendParent/obj_friendParent.yy",},

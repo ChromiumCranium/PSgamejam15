@@ -38,6 +38,7 @@
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
     {"id":{"name":"obj_attackParent","path":"objects/obj_attackParent/obj_attackParent.yy",},},
     {"id":{"name":"obj_basicAttack","path":"objects/obj_basicAttack/obj_basicAttack.yy",},},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_enemyParent","path":"objects/obj_enemyParent/obj_enemyParent.yy",},},
     {"id":{"name":"obj_friendParent","path":"objects/obj_friendParent/obj_friendParent.yy",},},
