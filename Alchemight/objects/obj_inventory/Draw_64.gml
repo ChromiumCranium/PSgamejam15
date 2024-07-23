@@ -1,4 +1,4 @@
-display_set_gui_size(1280,720)
+display_set_gui_size(window_get_width(),window_get_height())
 
 global.hotbarXBuffer = ((window_get_width() - INVENTORY_SLOTS*INVENTORY_WIDTH)/2)
 
