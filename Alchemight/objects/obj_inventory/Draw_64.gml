@@ -58,7 +58,7 @@ if (global.inventory[hotbarSlot()] != -1){
 	var strength = string(global.items[global.inventory[hotbarSlot()]][0])
 	var aspeed = string(global.items[global.inventory[hotbarSlot()]][1])
 	var ahealth = string(global.items[global.inventory[hotbarSlot()]][2])
-	var tooltiptext = "STRENGTH: " + strength + "SPEED: " + aspeed + "HEALTH: " + ahealth
+	var tooltiptext = "STRENGTH: " + strength + "\nSPEED: " + aspeed + "\nHEALTH: " + ahealth
 	//"SPEED: " + global.inventory[hotbarSlot()][1] + 
 	//"HEALTH: " + global.inventory[hotbarSlot()][2])
 	draw_tooltip(tooltiptext, fnt_vinque, c_white, c_black, 0.8);
