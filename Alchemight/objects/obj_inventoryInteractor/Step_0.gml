@@ -14,8 +14,8 @@ if(mouse_check_button_pressed(2) == 1){
 		show_debug_message(hotbarSlot())
 		//if the slot is not empty
 		if(global.inventory[hotbarSlot()] != -1){
-		//add item selected to craft list if there are <3 already selected and the item is craftable and the slot selecting isn't beign used yet
-		if(global.items[global.inventory[hotbarSlot()]][3] == 0 && hotbarSlot() != global.slotCrafting1 && hotbarSlot() != global.slotCrafting2 && hotbarSlot() != global.slotCrafting3){
+		//add item selected to craft list if there are <3 already selected and the slot selecting isn't beign used yet
+		if(hotbarSlot() != global.slotCrafting1 && hotbarSlot() != global.slotCrafting2 && hotbarSlot() != global.slotCrafting3){
 		for (var i = 0; i <= CRAFT_LIMIT - 1; i++){
 			if (global.craftList[i] == -1){
 				show_debug_message("ADDING TO CRAFTER")
@@ -67,4 +67,19 @@ if(keyboard_check_pressed(ord("V"))){
 	for (var i=0;i<CRAFT_LIMIT;i++){
 		global.craftList[i] = -1
 	}
+}
+
+//Selecting a potion
+
+//if m1 is pressed and mouse is in hotbar, and not on an ingredient
+if (mouse_check_button_pressed(1) && hotbarSlot() != -1){
+	if(global.inventory[hotbarSlot()] != -1){
+		if(global.items[global.inventory[hotbarSlot()]][3] == 0){
+			//add item clicked to hand
+			global.hand = global.inventory[hotbarSlot()]
+		}
+	}
+}
+if(mouse_check_button_released(1)){
+	global.hand = -1
 }

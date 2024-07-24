@@ -5,6 +5,7 @@
 #macro INVENTORY_WIDTH 64
 //Define crafting ingredient number
 #macro CRAFT_LIMIT 3
+#macro NUMBER_OF_INGREDIENTS 1
 
 //Attack Stats
 #macro BASIC_RANGE 75

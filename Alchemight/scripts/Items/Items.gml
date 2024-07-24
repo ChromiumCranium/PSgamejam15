@@ -6,7 +6,7 @@ global.items = [
 	1.3,//STR
 	0.9,//SPEED
 	1,//HEALTH
-	0,//ISBASIC (not craftable)
+	1,//ISINGREDIENT
 	],
 	//1 = ORANGE POTION
 	[
