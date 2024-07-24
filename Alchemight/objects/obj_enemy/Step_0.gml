@@ -3,14 +3,14 @@ path_delete(path);
 path = path_add();
 
 //if there is an enemy
-if (findNearestEnemy(self) != noone){
+if (findNearestFriendly(self) != noone){
 	// where to go
-	target = findNearestEnemy(self)
+	target = findNearestFriendly(self)
 	target_x = target.x;
 	target_y = target.y;
 
 	//if there is no enemy in range, then move to one
-	if (distance_to_object(findNearestEnemy(self)) >= BASIC_RANGE){
+	if (distance_to_object(findNearestFriendly(self)) >= BASIC_RANGE){
 		// use the grid, make a path
 		mp_grid_path(obj_setup_pathway.grid, path, x, y, target_x, target_y, 1);
 
@@ -22,7 +22,7 @@ if (findNearestEnemy(self) != noone){
 	//if cooldown over
 	if (canAttack == 1){
 		//attempt to attack
-		success = attack(self,findNearestEnemy(self),"BASIC")
+		success = attack(self,findNearestFriendly(self),"BASIC")
 		
 		//if successful
 		if (success == true) {

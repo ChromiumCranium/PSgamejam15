@@ -31,4 +31,7 @@ if (keyboard_check(vk_nokey))
 	image_speed = 0;
 	image_index = 0;
 	}
-	
+
+//scale down sprite
+image_xscale = PLAYER_SCALE_FACTOR
+image_yscale = PLAYER_SCALE_FACTOR

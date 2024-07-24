@@ -7,4 +7,7 @@
 #macro CRAFT_LIMIT 3
 
 //Attack Stats
-#macro BASIC_RANGE 100
+#macro BASIC_RANGE 75
+
+//Other
+#macro PLAYER_SCALE_FACTOR 2/3
