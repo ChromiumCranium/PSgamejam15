@@ -27,6 +27,7 @@
     {"name":"obj_friendParent","order":7,"path":"objects/obj_friendParent/obj_friendParent.yy",},
     {"name":"obj_inventoryInteractor","order":1,"path":"objects/obj_inventoryInteractor/obj_inventoryInteractor.yy",},
     {"name":"obj_minion","order":5,"path":"objects/obj_minion/obj_minion.yy",},
+    {"name":"obj_pause","order":13,"path":"objects/obj_pause/obj_pause.yy",},
     {"name":"obj_player","order":2,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_setup_pathway","order":5,"path":"objects/obj_setup_pathway/obj_setup_pathway.yy",},
     {"name":"obj_specialMinion","order":12,"path":"objects/obj_specialMinion/obj_specialMinion.yy",},
