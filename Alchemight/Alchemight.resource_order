@@ -32,6 +32,7 @@
     {"name":"obj_specialMinion","order":12,"path":"objects/obj_specialMinion/obj_specialMinion.yy",},
     {"name":"obj_wall","order":3,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"rm_game","order":1,"path":"rooms/rm_game/rm_game.yy",},
+    {"name":"Attack","order":6,"path":"scripts/Attack/Attack.yy",},
     {"name":"CheckMousePosition","order":3,"path":"scripts/CheckMousePosition/CheckMousePosition.yy",},
     {"name":"InventoryFunctions","order":1,"path":"scripts/InventoryFunctions/InventoryFunctions.yy",},
     {"name":"Items","order":2,"path":"scripts/Items/Items.yy",},
@@ -48,6 +49,7 @@
     {"name":"spr_item","order":1,"path":"sprites/spr_item/spr_item.yy",},
     {"name":"spr_minionPH","order":6,"path":"sprites/spr_minionPH/spr_minionPH.yy",},
     {"name":"spr_player","order":3,"path":"sprites/spr_player/spr_player.yy",},
+    {"name":"spr_specialMinion","order":16,"path":"sprites/spr_specialMinion/spr_specialMinion.yy",},
     {"name":"spr_wall","order":4,"path":"sprites/spr_wall/spr_wall.yy",},
   ],
 }
