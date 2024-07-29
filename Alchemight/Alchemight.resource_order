@@ -1,4 +1,11 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"fnt_vinque_menu","order":2,"path":"fonts/fnt_vinque_menu/fnt_vinque_menu.yy",},
+    {"name":"obj_button_replay","order":1,"path":"objects/obj_button_replay/obj_button_replay.yy",},
+    {"name":"obj_gameover","order":2,"path":"objects/obj_gameover/obj_gameover.yy",},
+    {"name":"obj_menu","order":3,"path":"objects/obj_menu/obj_menu.yy",},
+    {"name":"rm_game_over","order":1,"path":"rooms/rm_game_over/rm_game_over.yy",},
+    {"name":"spr_button_1","order":1,"path":"sprites/spr_button_1/spr_button_1.yy",},
+  ],
 }

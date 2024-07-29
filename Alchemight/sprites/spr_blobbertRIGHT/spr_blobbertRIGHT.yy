@@ -1,9 +1,9 @@
 {
   "$GMSprite":"",
   "%Name":"spr_blobbertRIGHT",
-  "bboxMode":0,
-  "bbox_bottom":60,
-  "bbox_left":5,
+  "bboxMode":2,
+  "bbox_bottom":61,
+  "bbox_left":9,
   "bbox_right":63,
   "bbox_top":15,
   "collisionKind":1,
