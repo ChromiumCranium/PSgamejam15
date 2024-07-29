@@ -12,8 +12,8 @@
   "name":"obj_enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Creatures",
+    "path":"folders/Objects/Creatures.yy",
   },
   "parentObjectId":{
     "name":"obj_enemyParent",
@@ -37,7 +37,7 @@
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_enemy",
     "path":"sprites/spr_enemy/spr_enemy.yy",

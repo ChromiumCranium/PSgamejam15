@@ -6,8 +6,8 @@
   "name":"obj_attackParent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Attacks",
+    "path":"folders/Objects/Attacks.yy",
   },
   "parentObjectId":null,
   "persistent":false,

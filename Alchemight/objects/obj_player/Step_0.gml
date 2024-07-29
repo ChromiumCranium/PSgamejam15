@@ -35,3 +35,10 @@ if (keyboard_check(vk_nokey))
 //scale down sprite
 image_xscale = PLAYER_SCALE_FACTOR
 image_yscale = PLAYER_SCALE_FACTOR
+
+//health
+global.playerHealth = clamp(global.playerHealth,0,MAX_PLAYER_HEALTH)
+global.playerHealth -= newDamage
+newDamage = 0
+
+//TODO: ADD DEATH

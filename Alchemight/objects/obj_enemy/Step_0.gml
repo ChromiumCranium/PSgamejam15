@@ -22,13 +22,21 @@ if (findNearestFriendly(self) != noone){
 	//if cooldown over
 	if (canAttack == 1){
 		//attempt to attack
-		success = attack(self,findNearestFriendly(self),"BASIC")
+		success = attack(self,findNearestFriendly(self),"BASIC",BASE_MINION_STRENGTH,"ENEMY")
 		
 		//if successful
 		if (success == true) {
 			//reset cooldown
 			canAttack = 0
-			alarm[1] = game_get_speed(gamespeed_fps)*1.5
+			alarm[1] = game_get_speed(gamespeed_fps)*BASIC_COOLDOWN
 		}
 	}
 }
+
+//health system
+ownHealth = clamp(ownHealth,0,BASE_MINION_HEALTH)
+ownHealth -= newDamage
+newDamage = 0
+
+//death
+if (ownHealth <= 0) Kill(self)
