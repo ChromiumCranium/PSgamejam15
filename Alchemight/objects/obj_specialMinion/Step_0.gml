@@ -25,7 +25,7 @@ if (attackType == "BASIC" || attackType == "SLAM" || attackType == "FLAMES"){
 		//if cooldown over
 		if (canAttack == 1){
 			//attempt to attack
-			success = attack(self,findNearestEnemy(self),attackType)
+			success = attack(self,findNearestEnemy(self),attackType,str,"FRIENDLY")
 		
 			//if successful
 			if (success == true) {
@@ -58,7 +58,7 @@ if (attackType == "BASIC" || attackType == "SLAM" || attackType == "FLAMES"){
 			if (canAttack == 1){
 				
 				//attempt to attack
-				success = attack(self,findNearestEnemy(self),attackType)
+				success = attack(self,findNearestEnemy(self),attackType,str,"FRIENDLY")
 		
 				//if successful
 				if (success == true) {
@@ -71,3 +71,11 @@ if (attackType == "BASIC" || attackType == "SLAM" || attackType == "FLAMES"){
 	}
 	
 }
+
+//health
+hp = clamp(ownHealth,0,hp)
+hp -= newDamage
+newDamage = 0
+
+//death
+if (hp <= 0) Kill(self)

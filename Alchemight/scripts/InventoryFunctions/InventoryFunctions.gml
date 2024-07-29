@@ -33,13 +33,13 @@ function CreateNewItem(item1,item2,item3){
 	var property1=0
 	var property2=0
 	if (item3 == -1){
-		property0 = global.items[item1][0] + global.items[item2][0]
-		property1 = global.items[item1][1] + global.items[item2][1]
-		property2 = global.items[item1][2] + global.items[item2][2]
+		property0 = global.items[item1][0] * global.items[item2][0]
+		property1 = global.items[item1][1] * global.items[item2][1]
+		property2 = global.items[item1][2] * global.items[item2][2]
 	} else {
-		property0 = global.items[item1][0] + global.items[item2][0] + global.items[item3][0]
-		property1 = global.items[item1][1] + global.items[item2][1] + global.items[item3][1]
-		property2 = global.items[item1][2] + global.items[item2][2] + global.items[item3][2]
+		property0 = global.items[item1][0] * global.items[item2][0] * global.items[item3][0]
+		property1 = global.items[item1][1] * global.items[item2][1] * global.items[item3][1]
+		property2 = global.items[item1][2] * global.items[item2][2] * global.items[item3][2]
 	}
 	var newitem = [property0,property1,property2,0]
 	

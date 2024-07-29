@@ -1,0 +1,6 @@
+1. Special attack types for certain ingredients
+2. Mana system for crafting (?)
+3. Boss battles
+4. Shield Ability
+5. Health regen ability (for creatures)
+6. Crafting Visual
