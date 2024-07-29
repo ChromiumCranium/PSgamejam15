@@ -42,3 +42,8 @@ global.playerHealth -= newDamage
 newDamage = 0
 
 //TODO: ADD DEATH
+
+if (global.playerHealth == 0)
+{
+	room_goto(rm_game_over)
+}
