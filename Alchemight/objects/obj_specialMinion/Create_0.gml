@@ -29,7 +29,7 @@ image_yscale = SPECIAL_MINION_SIZE/sprite_height
 //ground slam if beefy no matter strength
 if (hp >= SLAM_LOWER_HP_MOD * BASE_MINION_HEALTH) {
 	attackType = "SLAM"
-	range = SLAM_RANGE
+	range = SLAM_RADIUS
 	cooldown = SLAM_COOLDOWN
 }  else if (hp <= LONG_UPPER_HP_MOD * BASE_MINION_HEALTH) {
 	//long range if strong but low health
@@ -38,5 +38,5 @@ if (hp >= SLAM_LOWER_HP_MOD * BASE_MINION_HEALTH) {
 } else {
 	attackType = "BASIC"
 	range = BASIC_RANGE
-	cooldown = BASIC_COOLDOWNDDD
+	cooldown = BASIC_COOLDOWN
 }

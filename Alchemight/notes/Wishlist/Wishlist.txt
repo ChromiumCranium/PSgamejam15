@@ -4,3 +4,6 @@
 4. Shield Ability
 5. Health regen ability (for creatures)
 6. Crafting Visual
+7. Change GUI to be a little less shit
+8. Randomized ingredient spawning
+9. Better collisions

@@ -1,0 +1,6 @@
+This note is for wonky stuff that we should change but will have to work around for now
+
+//
+All the stuff going into the hotbar must have an origin in the TOP LEFT corner, not the middle center
+//
+

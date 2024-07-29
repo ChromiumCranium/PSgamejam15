@@ -36,7 +36,6 @@ if (findNearestEnemy(self) != noone){
 //health
 ownHealth = clamp(ownHealth,0,BASE_MINION_HEALTH)
 ownHealth -= newDamage
-show_debug_message(ownHealth)
 newDamage = 0
 
 //death

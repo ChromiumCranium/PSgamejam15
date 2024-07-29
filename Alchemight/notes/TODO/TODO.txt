@@ -1,0 +1,7 @@
+Attacks:
+Make minions go a little extra distance when doing AoE attack
+increase range of AoE attack
+Fix attacks being below entities
+
+Items:
+Add item drops from enemies

@@ -29,6 +29,10 @@ function RemoveItem(itemType){
 
 //Add item to end of item array and return new item index
 function CreateNewItem(item1,item2,item3){
+	//init vars
+	var sprite
+	
+	//item stats
 	var property0=0
 	var property1=0
 	var property2=0
@@ -41,7 +45,28 @@ function CreateNewItem(item1,item2,item3){
 		property1 = global.items[item1][1] * global.items[item2][1] * global.items[item3][1]
 		property2 = global.items[item1][2] * global.items[item2][2] * global.items[item3][2]
 	}
-	var newitem = [property0,property1,property2,0]
+	
+	//randomized useable sprite
+	switch (irandom_range(1,sprite_get_number(spr_potion))) {
+		case 1 :
+			sprite = spr_potion1
+			break;
+			
+		case 2 :
+			sprite = spr_potion2
+			break;
+			
+		case 3 :
+			sprite = spr_potion3
+			break;
+			
+		case 4 :
+			sprite = spr_potion4
+			break;
+			
+	}
+	
+	var newitem = [property0,property1,property2,0,sprite]
 	
 	array_push(global.items,newitem)
 	return(array_length(global.items)-1)

@@ -14,16 +14,22 @@ for (var i = 0; i <= INVENTORY_SLOTS-1; i++){
 
 //Draw items inside hotbar
 for (var j = 0; j <= INVENTORY_SLOTS-1; j++){
+	
+	//if the slot isn't empty
 	if(global.inventory[j] != -1){
-	draw_sprite(
-		spr_item,
+
+		draw_sprite(
+			global.items[global.inventory[j]][4],
+			0,
+			global.hotbarXBuffer+INVENTORY_WIDTH*j,
+			window_get_height() - INVENTORY_HEIGHT
+		)
 		
-		global.inventory[j],
-		global.hotbarXBuffer+INVENTORY_WIDTH*j,
-		window_get_height() - INVENTORY_HEIGHT
-	)
 	}
 }
+
+
+//-------------CRAFTING STUFF------------//
 
 if (global.slotCrafting1 != -1){
 	//Create indication on hotbar of which slot is selected for crafting

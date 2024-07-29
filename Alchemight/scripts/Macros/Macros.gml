@@ -13,8 +13,8 @@
 #macro BASE_MINION_STRENGTH 25
 
 //Modifiers
-#macro SPECIAL_MINION_STR_MOD 1.5
-#macro SPECIAL_MINION_SPD_MOD 1
+#macro SPECIAL_MINION_STR_MOD 1
+#macro SPECIAL_MINION_SPD_MOD 1.2
 #macro SPECIAL_MINION_HP_MOD 2
 
 //Attack Deciders
@@ -23,12 +23,12 @@
 
 //Attack Stats
 #macro BASIC_RANGE 75
-#macro SLAM_RANGE 15
+#macro SLAM_RADIUS 200
 #macro FLAMES_RANGE 125
 
 //Cooldowns (in multiples of a second)
 #macro BASIC_COOLDOWN 3
-#macro SLAM_COOLDOWN 3
+#macro SLAM_COOLDOWN 5
 #macro FLAMES_COOLDOWN 1
 #macro LONG_COOLDOWN 2
 
