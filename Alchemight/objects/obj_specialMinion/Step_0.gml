@@ -73,7 +73,7 @@ if (attackType == "BASIC" || attackType == "SLAM" || attackType == "FLAMES"){
 }
 
 //health
-hp = clamp(ownHealth,0,hp)
+hp = clamp(hp,0,hp)
 hp -= newDamage
 newDamage = 0
 

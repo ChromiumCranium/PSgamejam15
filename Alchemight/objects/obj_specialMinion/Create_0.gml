@@ -9,7 +9,9 @@ target_x = target.x;
 target_y = target.y;
 str = strengthMod * SPECIAL_MINION_STR_MOD * BASE_MINION_STRENGTH
 spd = speedMod * SPECIAL_MINION_SPD_MOD * BASE_MINION_SPEED
-hp = healthMod * SPECIAL_MINION_HP_MOD * BASE_MINION_HEALTH
+maxhp = healthMod * SPECIAL_MINION_HP_MOD * BASE_MINION_HEALTH
+hp = maxhp
+newDamage = 0
 
 attackType = "BASIC"
 range = BASIC_RANGE
