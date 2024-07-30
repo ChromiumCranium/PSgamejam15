@@ -1,4 +1,8 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_complete","order":2,"path":"objects/obj_complete/obj_complete.yy",},
+    {"name":"obj_lvl_complete","order":1,"path":"objects/obj_lvl_complete/obj_lvl_complete.yy",},
+    {"name":"rm_lvl_complete","order":1,"path":"rooms/rm_lvl_complete/rm_lvl_complete.yy",},
+  ],
 }
