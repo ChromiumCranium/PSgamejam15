@@ -1,6 +1,23 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Enemies","order":1,"path":"folders/Objects/Creatures/Enemies.yy",},
+    {"name":"enemies","order":1,"path":"folders/Sprites/enemies.yy",},
+    {"name":"farmer","order":1,"path":"folders/Sprites/enemies/farmer.yy",},
+    {"name":"blobbad","order":2,"path":"folders/Sprites/enemies/blobbad.yy",},
+  ],
   "ResourceOrderSettings":[
+    {"name":"obj_blobEnemy","order":3,"path":"objects/obj_blobEnemy/obj_blobEnemy.yy",},
+    {"name":"obj_chestSpawn","order":1,"path":"objects/obj_chestSpawn/obj_chestSpawn.yy",},
+    {"name":"obj_farmerEnemy","order":2,"path":"objects/obj_farmerEnemy/obj_farmerEnemy.yy",},
+    {"name":"obj_spikeAttack","order":1,"path":"objects/obj_spikeAttack/obj_spikeAttack.yy",},
     {"name":"Kill","order":1,"path":"scripts/Kill/Kill.yy",},
+    {"name":"spr_blobbadATTACK","order":4,"path":"sprites/spr_blobbadATTACK/spr_blobbadATTACK.yy",},
+    {"name":"spr_blobbadDOWN","order":1,"path":"sprites/spr_blobbadDOWN/spr_blobbadDOWN.yy",},
+    {"name":"spr_blobbadLEFT","order":2,"path":"sprites/spr_blobbadLEFT/spr_blobbadLEFT.yy",},
+    {"name":"spr_blobbadRIGHT","order":3,"path":"sprites/spr_blobbadRIGHT/spr_blobbadRIGHT.yy",},
+    {"name":"spr_farmerDOWN","order":1,"path":"sprites/spr_farmerDOWN/spr_farmerDOWN.yy",},
+    {"name":"spr_farmerLEFT","order":3,"path":"sprites/spr_farmerLEFT/spr_farmerLEFT.yy",},
+    {"name":"spr_farmerRIGHT","order":2,"path":"sprites/spr_farmerRIGHT/spr_farmerRIGHT.yy",},
+    {"name":"spr_spikeAttack","order":1,"path":"sprites/spr_spikeAttack/spr_spikeAttack.yy",},
   ],
 }

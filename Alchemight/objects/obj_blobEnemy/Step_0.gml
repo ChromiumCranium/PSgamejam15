@@ -10,7 +10,7 @@ if (findNearestFriendly(self) != noone){
 	target_y = target.y;
 
 	//if there is no enemy in range, then move to one
-	if (distance_to_object(findNearestFriendly(self)) >= BASIC_RANGE){
+	if (distance_to_object(findNearestFriendly(self)) >= BASIC_RANGE*0.8){
 		// use the grid, make a path
 		mp_grid_path(obj_setup_pathway.grid, path, x, y, target_x, target_y, 1);
 
@@ -27,6 +27,7 @@ if (findNearestFriendly(self) != noone){
 		//if successful
 		if (success == true) {
 			//reset cooldown
+			sprite_index = spr_blobbadATTACK
 			canAttack = 0
 			alarm[1] = game_get_speed(gamespeed_fps)*BASIC_COOLDOWN
 		}

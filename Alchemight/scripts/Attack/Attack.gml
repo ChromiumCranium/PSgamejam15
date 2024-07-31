@@ -20,6 +20,17 @@ function attack(attacker,target,attackType,str,attackerType){
 				
 			} else {return (false)}
 			
+		} else if(attackType == "SPIKE"){
+			
+			//if within range
+			if(distance_to_object(target) < SPIKE_RADIUS){
+				
+				instance_create_layer(x,y,"attackLayer",obj_spikeAttack,importedVars)
+				
+				return (true)
+				
+			} else {return (false)}
+			
 		} else if (attackType == "SLAM"){
 			
 			//no range check, just attack
