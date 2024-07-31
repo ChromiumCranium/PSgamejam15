@@ -2,8 +2,8 @@
   "FolderOrderSettings":[
     {"name":"Enemies","order":1,"path":"folders/Objects/Creatures/Enemies.yy",},
     {"name":"enemies","order":1,"path":"folders/Sprites/enemies.yy",},
-    {"name":"farmer","order":1,"path":"folders/Sprites/enemies/farmer.yy",},
     {"name":"blobbad","order":2,"path":"folders/Sprites/enemies/blobbad.yy",},
+    {"name":"farmer","order":1,"path":"folders/Sprites/enemies/farmer.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"obj_blobEnemy","order":3,"path":"objects/obj_blobEnemy/obj_blobEnemy.yy",},
@@ -18,6 +18,7 @@
     {"name":"spr_farmerDOWN","order":1,"path":"sprites/spr_farmerDOWN/spr_farmerDOWN.yy",},
     {"name":"spr_farmerLEFT","order":3,"path":"sprites/spr_farmerLEFT/spr_farmerLEFT.yy",},
     {"name":"spr_farmerRIGHT","order":2,"path":"sprites/spr_farmerRIGHT/spr_farmerRIGHT.yy",},
+    {"name":"spr_floor","order":4,"path":"sprites/spr_floor/spr_floor.yy",},
     {"name":"spr_spikeAttack","order":1,"path":"sprites/spr_spikeAttack/spr_spikeAttack.yy",},
   ],
 }
