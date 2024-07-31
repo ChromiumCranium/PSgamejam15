@@ -86,6 +86,7 @@
     {"id":{"name":"Damage","path":"scripts/Damage/Damage.yy",},},
     {"id":{"name":"InventoryFunctions","path":"scripts/InventoryFunctions/InventoryFunctions.yy",},},
     {"id":{"name":"Items","path":"scripts/Items/Items.yy",},},
+    {"id":{"name":"Kill","path":"scripts/Kill/Kill.yy",},},
     {"id":{"name":"Macros","path":"scripts/Macros/Macros.yy",},},
     {"id":{"name":"NearestEnemy","path":"scripts/NearestEnemy/NearestEnemy.yy",},},
     {"id":{"name":"Tooltip","path":"scripts/Tooltip/Tooltip.yy",},},

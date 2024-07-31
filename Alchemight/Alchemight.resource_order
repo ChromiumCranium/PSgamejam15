@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"Kill","order":1,"path":"scripts/Kill/Kill.yy",},
+  ],
 }

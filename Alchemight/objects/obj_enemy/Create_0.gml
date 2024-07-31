@@ -14,4 +14,4 @@ newDamage = 0
 
 //value (how much loot to give)
 //  ranked worst to best loot starting at 1
-rarity = 1
+lvl = 1

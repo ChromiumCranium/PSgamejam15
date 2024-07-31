@@ -1,4 +1,10 @@
 /// @description Add items to inventory
+
+//if drops were passed from kill script, add them to items
+if(is_array(drops)) {
+	items = array_concat(items,drops)
+}
+
 var i = 0;
 for (i = 0; i<array_length(items); i = i){
 	
