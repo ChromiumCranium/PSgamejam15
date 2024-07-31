@@ -1,4 +1,4 @@
-canAttack = 1
+canAttack = 0
 
 //pathfinding
 // update path

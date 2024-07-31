@@ -44,7 +44,7 @@ if (attackType == "BASIC"){
 		target_y = target.y;
 
 		//if there is no enemy in range, then move to one
-		if (distance_to_object(findNearestEnemy(self)) >= range*0.6){
+		if (distance_to_object(findNearestEnemy(self)) >= range*0.4){
 			// use the grid, make a path
 			mp_grid_path(obj_setup_pathway.grid, path, x, y, target_x, target_y, 1);
 

@@ -39,4 +39,4 @@ ownHealth -= newDamage
 newDamage = 0
 
 //death
-if (ownHealth <= 0) Kill(self)
+if (ownHealth <= 0) Kill(id)
