@@ -13,6 +13,8 @@ maxhp = healthMod * SPECIAL_MINION_HP_MOD * BASE_MINION_HEALTH
 hp = maxhp
 newDamage = 0
 
+lvl = 0
+
 attackType = "BASIC"
 range = BASIC_RANGE
 cooldown = BASIC_COOLDOWN
