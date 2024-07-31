@@ -44,17 +44,13 @@ if (attackType == "BASIC"){
 		target_y = target.y;
 
 		//if there is no enemy in range, then move to one
-		if (distance_to_object(findNearestFriendly(self)) >= range*0.4){
+		if (distance_to_object(findNearestFriendly(self)) >= range*0.5){
 			// use the grid, make a path
 			mp_grid_path(obj_setup_pathway.grid, path, x, y, target_x, target_y, 1);
 
 			// follow path
 			path_start(path, 2, path_action_stop, true);
-		}
-	
-	
-		//if cooldown over
-		if (canAttack == 1){
+		} else if (canAttack == 1){
 			show_debug_message("try")
 			//attempt to attack
 			success = attack(self,findNearestFriendly(self),attackType,str,"ENEMY")

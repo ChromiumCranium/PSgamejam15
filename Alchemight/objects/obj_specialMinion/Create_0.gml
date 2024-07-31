@@ -21,6 +21,8 @@ cooldown = BASIC_COOLDOWN
 image_xscale = SPECIAL_MINION_SIZE/sprite_width
 image_yscale = SPECIAL_MINION_SIZE/sprite_height
 
+alarm[1] = game_get_speed(gamespeed_fps)*cooldown
+
 
 //PLACEHOLDER -- I DON'T REALLY LIKE THIS SYSTEM
 //other ideas: 

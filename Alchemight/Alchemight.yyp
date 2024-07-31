@@ -65,7 +65,6 @@
     {"id":{"name":"obj_button_replay","path":"objects/obj_button_replay/obj_button_replay.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},},
-    {"id":{"name":"obj_chestSpawn","path":"objects/obj_chestSpawn/obj_chestSpawn.yy",},},
     {"id":{"name":"obj_complete","path":"objects/obj_complete/obj_complete.yy",},},
     {"id":{"name":"obj_corpse","path":"objects/obj_corpse/obj_corpse.yy",},},
     {"id":{"name":"obj_enemyParent","path":"objects/obj_enemyParent/obj_enemyParent.yy",},},

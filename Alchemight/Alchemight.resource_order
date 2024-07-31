@@ -8,7 +8,6 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_blobEnemy","order":1,"path":"objects/obj_blobEnemy/obj_blobEnemy.yy",},
-    {"name":"obj_chestSpawn","order":1,"path":"objects/obj_chestSpawn/obj_chestSpawn.yy",},
     {"name":"obj_mageEnemy","order":2,"path":"objects/obj_mageEnemy/obj_mageEnemy.yy",},
     {"name":"obj_spikeAttack","order":1,"path":"objects/obj_spikeAttack/obj_spikeAttack.yy",},
     {"name":"Kill","order":1,"path":"scripts/Kill/Kill.yy",},
