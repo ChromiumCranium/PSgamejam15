@@ -19,10 +19,10 @@
     {"name":"spr_farmerDOWN","order":1,"path":"sprites/spr_farmerDOWN/spr_farmerDOWN.yy",},
     {"name":"spr_farmerLEFT","order":3,"path":"sprites/spr_farmerLEFT/spr_farmerLEFT.yy",},
     {"name":"spr_farmerRIGHT","order":2,"path":"sprites/spr_farmerRIGHT/spr_farmerRIGHT.yy",},
+    {"name":"spr_floor","order":4,"path":"sprites/spr_floor/spr_floor.yy",},
     {"name":"spr_mageDOWN","order":1,"path":"sprites/spr_mageDOWN/spr_mageDOWN.yy",},
     {"name":"spr_mageLEFT","order":2,"path":"sprites/spr_mageLEFT/spr_mageLEFT.yy",},
     {"name":"spr_mageRIGHT","order":3,"path":"sprites/spr_mageRIGHT/spr_mageRIGHT.yy",},
-    {"name":"spr_floor","order":4,"path":"sprites/spr_floor/spr_floor.yy",},
     {"name":"spr_spikeAttack","order":1,"path":"sprites/spr_spikeAttack/spr_spikeAttack.yy",},
   ],
 }
