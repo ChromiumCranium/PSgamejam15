@@ -1,8 +1,8 @@
 /// @description Define items in chest
 
 //array items is an array of indices for global.items
-items = array_create(4,2)
-items[0] = 1
-items[1] = 2
-items[2] = 1
-items[3] = 1
+items = array_create(0)
+drops = 0
+
+//if drops were passed from kill script, add them to items
+if(is_array(drops)) items = array_concat(items,drops)

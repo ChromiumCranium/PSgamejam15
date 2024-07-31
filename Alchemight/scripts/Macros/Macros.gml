@@ -7,10 +7,16 @@
 #macro CRAFT_LIMIT 3
 #macro NUMBER_OF_INGREDIENTS 1
 
+//Item levels
+#macro LV1_ITEM_CUTOFF_INDEX 1 //Index in global item array of last lv1 item
+#macro LV2_ITEM_CUTOFF_INDEX 3 
+#macro LV3_ITEM_CUTOFF_INDEX 5 
+
 //Minion Stats
 #macro BASE_MINION_HEALTH 100
 #macro BASE_MINION_SPEED 3
 #macro BASE_MINION_STRENGTH 25
+#macro ITEM_DROP_COUNT 2
 
 //Modifiers
 #macro SPECIAL_MINION_STR_MOD 1

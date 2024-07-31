@@ -1,6 +1,10 @@
 //Define standard item array
 //ex: calling global.inventory[1][1] gives the SPEED of item in hotbar slot 2
+
+//These should be grouped from weakest to strongest
+
 global.items = [
+// --- LEVEL 1 --- //
 	//0 = ink bottle
 	[
 	1.3, //STR
@@ -17,6 +21,7 @@ global.items = [
 	1,
 	spr_ing_purpleDroplet
 	],
+// --- LEVEL 2 --- //
 	//2 = cold feather
 	[
 	2, //STR
