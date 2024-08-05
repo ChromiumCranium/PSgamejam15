@@ -1,4 +1,5 @@
 canAttack = 1
+spd = BASE_MINION_SPEED
 
 //pathfinding
 // update path

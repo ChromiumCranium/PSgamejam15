@@ -10,7 +10,8 @@ target_y = target.y;
 image_xscale = BASIC_MINION_SIZE/sprite_width;
 image_yscale = BASIC_MINION_SIZE/sprite_height;
 
-//health
+//stats
+spd = BASE_MINION_SPEED
 ownHealth = BASE_MINION_HEALTH;
 newDamage = 0;
 

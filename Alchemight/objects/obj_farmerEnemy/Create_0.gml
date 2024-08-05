@@ -16,8 +16,9 @@ image_xscale = FARMER_SIZE/sprite_width;
 ownHealth = BASE_MINION_HEALTH * FARMER_HEALTH_MOD
 newDamage = 0
 
-//strength
+//stats
 str = BASE_MINION_STRENGTH * FARMER_STRENGTH_MOD
+spd = BASE_MINION_SPEED * FARMER_SPEED_MOD
 
 //value (how much loot to give)
 //  ranked worst to best loot starting at 1

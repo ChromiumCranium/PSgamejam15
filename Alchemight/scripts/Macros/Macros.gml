@@ -26,9 +26,11 @@
 
 #macro FARMER_STRENGTH_MOD 2
 #macro FARMER_HEALTH_MOD 1.5
+#macro FARMER_SPEED_MOD 1.25
 
 #macro MAGE_STRENGTH_MOD 2
 #macro MAGE_HEALTH_MOD 3
+#macro MAGE_SPEED_MOD 0.75
 
 //Attack Deciders
 #macro LONG_UPPER_HP_MOD 3

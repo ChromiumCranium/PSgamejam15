@@ -18,7 +18,7 @@ if (attackType == "BASIC"){
 			mp_grid_path(obj_setup_pathway.grid, path, x, y, target_x, target_y, 1);
 
 			// follow path
-			path_start(path, 2, path_action_stop, true);
+			path_start(path, spd, path_action_stop, true);
 		}
 	
 	
@@ -49,7 +49,7 @@ if (attackType == "BASIC"){
 			mp_grid_path(obj_setup_pathway.grid, path, x, y, target_x, target_y, 1);
 
 			// follow path
-			path_start(path, 2, path_action_stop, true);
+			path_start(path, spd, path_action_stop, true);
 		} else if (canAttack == 1){
 			show_debug_message("try")
 			//attempt to attack
@@ -79,7 +79,7 @@ if (attackType == "BASIC"){
 			mp_grid_path(obj_setup_pathway.grid, path, x, y, target_x, target_y, 1);
 
 			// follow path
-			path_start(path, 2, path_action_stop, true);
+			path_start(path, spd, path_action_stop, true);
 			
 		} else if (collision_line(x,y,target_x,target_y,obj_wall,false,true) == noone){
 			//if cooldown over
@@ -98,6 +98,11 @@ if (attackType == "BASIC"){
 		}
 	}
 	
+}
+
+//wall collision
+if (place_meeting(x + (spd*cos(direction)),y + (spd*sin(direction)),obj_wall)) {
+	spd = 0
 }
 
 //health

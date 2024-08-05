@@ -15,7 +15,7 @@ if (findNearestEnemy(self) != noone){
 		mp_grid_path(obj_setup_pathway.grid, path, x, y, target_x, target_y, 1);
 
 		// follow path
-		path_start(path, 2, path_action_stop, true);
+		path_start(path, spd, path_action_stop, true);
 	}
 	
 	
@@ -31,6 +31,11 @@ if (findNearestEnemy(self) != noone){
 			alarm[1] = game_get_speed(gamespeed_fps)*BASIC_COOLDOWN
 		}
 	}
+}
+
+//wall collision
+if (place_meeting(x + (spd*cos(direction)),y + (spd*sin(direction)),obj_wall)) {
+	spd = 0
 }
 
 //health
