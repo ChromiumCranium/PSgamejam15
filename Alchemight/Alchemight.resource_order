@@ -8,6 +8,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_blobEnemy","order":1,"path":"objects/obj_blobEnemy/obj_blobEnemy.yy",},
+    {"name":"obj_collision","order":2,"path":"objects/obj_collision/obj_collision.yy",},
     {"name":"obj_mageEnemy","order":2,"path":"objects/obj_mageEnemy/obj_mageEnemy.yy",},
     {"name":"obj_music","order":1,"path":"objects/obj_music/obj_music.yy",},
     {"name":"obj_spikeAttack","order":1,"path":"objects/obj_spikeAttack/obj_spikeAttack.yy",},
@@ -22,6 +23,7 @@
     {"name":"spr_blobbertDOWN","order":3,"path":"sprites/spr_blobbertDOWN/spr_blobbertDOWN.yy",},
     {"name":"spr_blobbertRIGHT","order":2,"path":"sprites/spr_blobbertRIGHT/spr_blobbertRIGHT.yy",},
     {"name":"spr_blobbertUP","order":1,"path":"sprites/spr_blobbertUP/spr_blobbertUP.yy",},
+    {"name":"spr_collision","order":5,"path":"sprites/spr_collision/spr_collision.yy",},
     {"name":"spr_farmerCollisionMask","order":4,"path":"sprites/spr_farmerCollisionMask/spr_farmerCollisionMask.yy",},
     {"name":"spr_farmerDOWN","order":1,"path":"sprites/spr_farmerDOWN/spr_farmerDOWN.yy",},
     {"name":"spr_farmerLEFT","order":3,"path":"sprites/spr_farmerLEFT/spr_farmerLEFT.yy",},
@@ -31,6 +33,7 @@
     {"name":"spr_mageDOWN","order":1,"path":"sprites/spr_mageDOWN/spr_mageDOWN.yy",},
     {"name":"spr_mageLEFT","order":2,"path":"sprites/spr_mageLEFT/spr_mageLEFT.yy",},
     {"name":"spr_mageRIGHT","order":3,"path":"sprites/spr_mageRIGHT/spr_mageRIGHT.yy",},
+    {"name":"spr_midRangeAttackHitbox","order":2,"path":"sprites/spr_midRangeAttackHitbox/spr_midRangeAttackHitbox.yy",},
     {"name":"spr_spikeAttack","order":1,"path":"sprites/spr_spikeAttack/spr_spikeAttack.yy",},
   ],
 }

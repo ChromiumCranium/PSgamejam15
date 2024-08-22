@@ -8,13 +8,16 @@ function inelasticCollision(x,y,spd,dir,nonmover) {
 	//if x coordinate would be blocked, divert all speed to vertical movement
 	if (place_meeting(x + xspeed,y,nonmover)){
 		newDir = sign(yspeed)*90
+		show_debug_message(place_meeting(x + xspeed,y,nonmover))
 	}
 	
 	//if y coordinate would be blocked, divert all speed to horizontal movement
 	else if (place_meeting(x,y + yspeed,nonmover)){
 		newDir = ((sign(xspeed)-1) / 2)*180 //this ensures you will always get either 0 or -180 
+		show_debug_message(2)
 	} else {
 		newDir = dir
+		show_debug_message("0")
 	}
 	
 	return newDir

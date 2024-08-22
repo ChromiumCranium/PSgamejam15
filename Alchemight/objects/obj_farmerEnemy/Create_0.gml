@@ -7,10 +7,13 @@ path = path_add();
 target = findNearestFriendly(self)
 target_x = target.x;
 target_y = target.y;
+mask_index = spr_farmerCollisionMask
 
-//scaling
-image_yscale = FARMER_SIZE/sprite_height;
-image_xscale = FARMER_SIZE/sprite_width;
+//scaling (sprite and mask)
+shit = FARMER_WIDTH/sprite_width
+image_xscale = shit
+image_yscale = shit
+
 
 //health
 ownHealth = BASE_MINION_HEALTH * FARMER_HEALTH_MOD

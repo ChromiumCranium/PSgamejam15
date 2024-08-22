@@ -35,6 +35,9 @@
     "name":"spr_midRangeAttack",
     "path":"sprites/spr_midRangeAttack/spr_midRangeAttack.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_midRangeAttackHitbox",
+    "path":"sprites/spr_midRangeAttackHitbox/spr_midRangeAttackHitbox.yy",
+  },
   "visible":true,
 }

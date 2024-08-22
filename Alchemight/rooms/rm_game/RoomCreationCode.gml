@@ -1,19 +1,19 @@
-window_set_size(1280,720)
+window_set_size(1920,1080)
 
-//create all the special little Mages with their special little stats
-stats = {
-	strengthMod : 2, //base strength and health mods in macros
-	healthMod : 2,
-	speedMod : 1
-}
-instance_create_layer(450,370,"entityLayer",obj_mageEnemy,stats)
+////create all the special little Mages with their special little stats
+//stats = {
+//	strengthMod : 2, //base strength and health mods in macros
+//	healthMod : 2,
+//	speedMod : 1
+//}
+//instance_create_layer(450,370,"entityLayer",obj_mageEnemy,stats)
 
-stats1 = {
-	strengthMod : 3.5, //base strength and health mods in macros
-	healthMod : 0.5,
-	speedMod : 1
-}
-instance_create_layer(1350,700,"entityLayer",obj_mageEnemy,stats1)
+//stats1 = {
+//	strengthMod : 3.5, //base strength and health mods in macros
+//	healthMod : 0.5,
+//	speedMod : 1
+//}
+//instance_create_layer(1350,700,"entityLayer",obj_mageEnemy,stats1)
 
 //create all the special little chests with their special little items
 items1 = {

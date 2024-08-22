@@ -12,7 +12,7 @@ if (findNearestFriendly(self) != noone){
 	//if there is no enemy in range, then move to one
 	if (distance_to_object(findNearestFriendly(self)) >= BASIC_RANGE * 0.8){
 		// use the grid, make a path
-		mp_grid_path(obj_setup_pathway.grid, path, x, y, target_x, target_y, 1);
+		mp_grid_path(obj_setup_pathway.grid, path, x, y, target_x, target_y, false);
 		
 		// follow path
 		path_start(path, spd, path_action_stop, true);
@@ -33,24 +33,10 @@ if (findNearestFriendly(self) != noone){
 	}
 }
 
-mask_index = spr_farmerCollisionMask
-
-var nonmover = obj_wall
+var nonmover = obj_collision
 
 //wall collision
-	var xspeed = spd*cos(direction)
-	var yspeed = spd*sin(direction)
-	
-	//if x coordinate would be blocked, divert all speed to vertical movement
-	if (place_meeting(x + xspeed,y,nonmover)){
-		direction = sign(yspeed)*90
-	}
-	
-	//if y coordinate would be blocked, divert all speed to horizontal movement
-	else if (place_meeting(x,y + yspeed,nonmover)){
-		direction = ((sign(xspeed)-1) / 2)*180 //this ensures you will always get either 0 or -180 
-	}
-	
+direction = inelasticCollision(x,y,spd,direction,nonmover)
 
 //health system
 ownHealth = clamp(ownHealth,0,BASE_MINION_HEALTH)

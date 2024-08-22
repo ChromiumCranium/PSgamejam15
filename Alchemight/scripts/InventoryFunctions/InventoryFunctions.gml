@@ -1,3 +1,4 @@
+
 function InventorySearch(itemType){
 	for (var i = 0; i < INVENTORY_SLOTS; i++){
 		if(global.inventory[i] == itemType){

@@ -42,6 +42,9 @@
     "name":"spr_farmerDOWN",
     "path":"sprites/spr_farmerDOWN/spr_farmerDOWN.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_farmerCollisionMask",
+    "path":"sprites/spr_farmerCollisionMask/spr_farmerCollisionMask.yy",
+  },
   "visible":true,
 }
